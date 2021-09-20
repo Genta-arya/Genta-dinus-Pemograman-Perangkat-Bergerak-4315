@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Layout1">
+
+    <TextView
+        android:id="@+id/textLingkaran"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:text="Menghitung Lingkaran" />
+
+    <EditText
+        android:id="@+id/txtDiameter"
+        android:layout_width="361dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:hint="Diameter"
+        android:inputType="number" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        .
+
+        <Button
+
+            android:id="@+id/btnHitung5"
+            android:layout_width="148dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:onClick="hitungLingkaranLuas"
+            android:text="Luas"
+            app:iconTint="#4CAF50"
+            app:rippleColor="#651818" />
+
+        <Button
+
+            android:id="@+id/btnHitung6"
+            android:layout_width="138dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:onClick="hitungLingkaranKeliling"
+            android:text="Keliling"
+            app:iconTint="#4CAF50"
+            app:rippleColor="#651818" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtHasil2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:hint="Hasil"
+        android:paddingRight="35dp"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+</LinearLayout>

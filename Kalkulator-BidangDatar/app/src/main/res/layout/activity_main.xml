@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Layout1">
+
+    <TextView
+        android:id="@+id/textPersegi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:text="Menghitung Persegi" />
+
+    <EditText
+        android:id="@+id/txtPanjang"
+        android:layout_width="361dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:hint="Masukan Panjang"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/txtLebar"
+        android:layout_width="361dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:hint="Masukan Lebar"
+        android:inputType="number" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        .
+
+        <Button
+
+            android:id="@+id/btnHitung1"
+            android:layout_width="148dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:onClick="hitungPersegiluas"
+            android:text="Luas"
+            app:iconTint="#4CAF50"
+            app:rippleColor="#651818" />
+
+        <Button
+
+            android:id="@+id/btnHitung2"
+            android:layout_width="138dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:onClick="hitungPersegiKeliling"
+            android:text="Keliling"
+            app:iconTint="#4CAF50"
+            app:rippleColor="#651818" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtHasil"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:hint="Hasil"
+        android:paddingRight="35dp"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textSegitiga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:text="Menghitung Segitiga" />
+
+    <EditText
+        android:id="@+id/txtAlas"
+        android:layout_width="361dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:hint="Masukan Alas"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/txtTinggi"
+        android:layout_width="361dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:hint="Masukan Tinggi"
+        android:inputType="number" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        .
+
+        <Button
+
+            android:id="@+id/btnHitung3"
+            android:layout_width="148dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:onClick="hitungSegitigaLuas"
+            android:text="Luas"
+            app:iconTint="#4CAF50"
+            app:rippleColor="#651818" />
+
+        <Button
+
+            android:id="@+id/btnHitung4"
+            android:layout_width="138dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:onClick="hitungSegitigaKeliling"
+            android:text="Keliling"
+            app:iconTint="#4CAF50"
+            app:rippleColor="#651818" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtHasil1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:hint="Hasil"
+        android:paddingRight="35dp"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+    <Button
+
+        android:id="@+id/btnNext"
+        android:layout_width="148dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="10dp"
+        android:onClick="pindah"
+        android:text="Selanjutnya"
+        android:textAlignment="center"
+        app:iconTint="#4CAF50"
+        app:rippleColor="#651818" />
+
+
+</LinearLayout>
