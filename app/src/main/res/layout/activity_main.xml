@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".Login">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/edit_usernameLogin"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:hint="Username"
+                android:layout_width="300dp"/>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/edit_passwordLogin"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:hint="password"
+                android:password="true"
+                android:layout_width="300dp"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btn_loginCustomer"
+                    android:textSize="12dp"
+                    android:text="Customer"/>
+
+                <Button
+                    android:id="@+id/btn_loginSeller"
+                    android:layout_width="110dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:text="Seller"
+                    android:textSize="12dp" />
+
+            </LinearLayout>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="263dp"
+        android:layout_height="320dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="149dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="242dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_toRegisterUser"
+            android:layout_width="132dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="31dp"
+            android:layout_marginBottom="0dp"
+            android:text="Register  customer" />
+
+        <Button
+            android:id="@+id/btn_toRegisterSeller"
+            android:layout_width="132dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="31dp"
+            android:layout_marginBottom="0dp"
+            android:text="Register  seller" />
+
+    </LinearLayout>
+
+</RelativeLayout>

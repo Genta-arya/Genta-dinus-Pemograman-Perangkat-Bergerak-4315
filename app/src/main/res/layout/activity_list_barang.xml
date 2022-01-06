@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID"
+        android:id="@+id/id_barangs"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:textStyle="bold"
+        android:id="@+id/username_brg_seller"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Toko"
+        android:textStyle="bold"
+        android:id="@+id/nama_tokos"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama barang"
+        android:textStyle="bold"
+        android:id="@+id/nama_brgs"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Harga"
+        android:textStyle="bold"
+        android:id="@+id/harga_brgs"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="qty"
+        android:textStyle="bold"
+        android:id="@+id/qtys"/>
+
+
+</LinearLayout>
